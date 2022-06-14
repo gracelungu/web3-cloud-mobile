@@ -5,7 +5,7 @@ import {PHOTOS_SCREEN} from '../../constants/screens';
 import videosRouter from '../../routes/videos.route';
 import contactsRouter from '../../routes/contacts.route';
 import profileRouter from '../../routes/profile.route';
-import colors from '../../style/colors';
+import colors from '../../styles/colors';
 import capitalize from '../../helpers/capitalize';
 
 const Tab = createBottomTabNavigator();
