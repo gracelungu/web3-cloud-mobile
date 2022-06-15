@@ -4,7 +4,7 @@ import photosRoute from '../../routes/photos.route';
 import {PHOTOS_SCREEN} from '../../constants/screens';
 import videosRouter from '../../routes/videos.route';
 import contactsRouter from '../../routes/contacts.route';
-import profileRouter from '../../routes/profile.route';
+import settingsRouter from '../../routes/settings.route';
 import colors from '../../styles/colors';
 import capitalize from '../../helpers/capitalize';
 
@@ -14,7 +14,7 @@ const bottomScreens = [
   photosRoute,
   videosRouter,
   contactsRouter,
-  profileRouter,
+  settingsRouter,
 ];
 
 function BottomNavigation() {
